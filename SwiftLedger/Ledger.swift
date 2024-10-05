@@ -5,10 +5,13 @@
 //  Created by Jeffrey Lind on 10/5/24.
 //
 
-public class Ledger {
-    public init() {}
+import SwiftData
+
+@Model
+final class Ledger {
+    var placeholder: String
     
-    public func sayhello() -> String {
-        "Hello from SwiftLedger!"
+    init(placeholder: String) {
+        self.placeholder = placeholder
     }
 }

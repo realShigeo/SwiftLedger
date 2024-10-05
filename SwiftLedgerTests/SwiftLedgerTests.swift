@@ -10,7 +10,8 @@ import Testing
 
 struct SwiftLedgerTests {
     @Test func example() async throws {
-        let ledger = Ledger()
-        #expect(ledger.sayhello() == "Hello from SwiftLedger!")
+        let placeholder = "Hello, World!"
+        let ledger = Ledger(placeholder: placeholder)
+        #expect(ledger.placeholder == placeholder)
     }
 }
