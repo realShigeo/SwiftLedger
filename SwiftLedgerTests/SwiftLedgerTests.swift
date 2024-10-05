@@ -9,10 +9,8 @@ import Testing
 @testable import SwiftLedger
 
 struct SwiftLedgerTests {
-
     @Test func example() async throws {
         let ledger = Ledger()
         #expect(ledger.sayhello() == "Hello from SwiftLedger!")
     }
-
 }
