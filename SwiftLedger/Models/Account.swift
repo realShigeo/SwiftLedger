@@ -5,19 +5,21 @@
 //  Created by Jeffrey Lind on 10/5/24.
 //
 
+import Foundation
 import SwiftData
 
 @Model
 final class Account {
-    var normalBalance: String
-    var postedBalance: Balance
-    var pendingBalance: Balance
-    var availableBalance: Balance
+    var name: String
+    var normalBalance = NormalBalance.debit
     
-    init(normalBalance: String, postedBalance: Balance, pendingBalance: Balance, availableBalance: Balance) {
-        self.normalBalance = normalBalance
-        self.postedBalance = postedBalance
-        self.pendingBalance = pendingBalance
-        self.availableBalance = availableBalance
+    var postedBalance: Decimal = 0
+    var pendingBalance: Decimal = 0
+    var availableBalance: Decimal = 0
+    
+    @Relationship(deleteRule: .cascade, inverse: \Transaction.account) var transactions = [Transaction]()
+
+    init(name: String) {
+        self.name = name
     }
 }

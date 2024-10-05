@@ -1,0 +1,25 @@
+{
+  "configurations" : [
+    {
+      "id" : "5D9DE64E-1AC7-4832-8494-C7280D224EAF",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:SwiftLedger.xcodeproj",
+        "identifier" : "FD3C0D592CB180670080373A",
+        "name" : "SwiftLedgerTests"
+      }
+    }
+  ],
+  "version" : 1
+}

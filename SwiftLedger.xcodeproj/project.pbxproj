@@ -23,6 +23,7 @@
 /* Begin PBXFileReference section */
 		FD3C0D502CB180670080373A /* SwiftLedger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftLedger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD3C0D5A2CB180670080373A /* SwiftLedgerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLedgerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD3C0DA02CB1D5940080373A /* SwiftLedger.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = SwiftLedger.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -60,6 +61,7 @@
 		FD3C0D462CB180670080373A = {
 			isa = PBXGroup;
 			children = (
+				FD3C0DA02CB1D5940080373A /* SwiftLedger.xctestplan */,
 				FD3C0D752CB18D9B0080373A /* SwiftLedger */,
 				FD3C0D5E2CB180670080373A /* SwiftLedgerTests */,
 				FD3C0D512CB180670080373A /* Products */,
@@ -221,7 +223,7 @@
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 0.0.5;
+				CURRENT_PROJECT_VERSION = 0.0.6;
 				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = DQ72A47KQP;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -236,7 +238,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.5;
+				MARKETING_VERSION = 0.0.6;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = us.Shigeo.SwiftLedger;
@@ -244,7 +246,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
@@ -254,7 +256,7 @@
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 0.0.5;
+				CURRENT_PROJECT_VERSION = 0.0.6;
 				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = DQ72A47KQP;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -269,7 +271,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.0.5;
+				MARKETING_VERSION = 0.0.6;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = us.Shigeo.SwiftLedger;
@@ -277,7 +279,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 			};
 			name = Release;
 		};
@@ -315,7 +317,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 0.0.5;
+				CURRENT_PROJECT_VERSION = 0.0.6;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -342,6 +344,7 @@
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -381,7 +384,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 0.0.5;
+				CURRENT_PROJECT_VERSION = 0.0.6;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -400,6 +403,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -409,14 +413,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 0.0.5;
+				CURRENT_PROJECT_VERSION = 0.0.6;
 				DEVELOPMENT_TEAM = DQ72A47KQP;
 				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 0.0.5;
+				MARKETING_VERSION = 0.0.6;
 				PRODUCT_BUNDLE_IDENTIFIER = us.Shigeo.SwiftLedgerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
@@ -424,14 +428,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 0.0.5;
+				CURRENT_PROJECT_VERSION = 0.0.6;
 				DEVELOPMENT_TEAM = DQ72A47KQP;
 				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 0.0.5;
+				MARKETING_VERSION = 0.0.6;
 				PRODUCT_BUNDLE_IDENTIFIER = us.Shigeo.SwiftLedgerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 			};
 			name = Release;
 		};
