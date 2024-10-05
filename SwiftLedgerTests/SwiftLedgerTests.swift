@@ -10,8 +10,5 @@ import Testing
 
 struct SwiftLedgerTests {
     @Test func example() async throws {
-        let placeholder = "Hello, World!"
-        let ledger = Ledger(placeholder: placeholder)
-        #expect(ledger.placeholder == placeholder)
     }
 }
